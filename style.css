@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+body {
+  width: 100%;
+  background: #e9e9e9;
+}
+
+#search_area, #update {
+  width: 98%;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+#live {
+  font-size: 16px;
+  color: tomato;
+}
+.info {
+  margin: 5px;
+}
+#search {
+  text-align: center;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+#update {
+  padding-top: 0px;
+}
+#update ul {
+  padding: 10px;
+}
+
+#update li{
+  list-style: none;
+  margin: 10px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px dashed #ccc;
+  animation: fade 1s;
+}
+
+#update li p {
+  text-align: justify;
+  padding: 0px 30px;
+}
+
+#update h2 {
+  margin: 10px;
+}
+
+#update img {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px #eee;
+}
+
+@media (min-width: 400px) {
+  #search_area, #update {
+    width: 90%;
+  }
+}
+
+@media (min-width: 500px) {
+  #search_area, #update {
+    width: 85%;
+  }
+}
+
+@media (min-width: 600px) {
+  #search_area, #update {
+    width: 80%;
+  }
+
+
+@media (min-width: 700px) {
+  #search_area, #update {
+    width: 70%;
+  }
+}
+
+@media (min-width: 800px) {
+  #search_area, #update {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #search_area, #update {
+    width: 40%;
+  }
+}
+@media (min-width: 1200px) {
+  #search_area, #update {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1300px) {
+  #search_area, #update {
+    width: 30%;
+  }
+}
+
+@keyframes fade {
+  0% {opacity: 0.1;}
+  100% {opacity: 1.0}
+}
